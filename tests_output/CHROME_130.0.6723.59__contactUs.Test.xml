@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="contactUs.Test"
+    errors="0" failures="0" hostname="" id="" package="contactUs.Test" skipped="0"
+    tests="7" time="111.1" timestamp="">
+  
+    <testcase name="Test Contact Us - Valid Submission (Customer Service)" classname="contactUs.Test" time="7.843" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Contact Us - Valid Submission (Webmaster)" classname="contactUs.Test" time="7.891" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Contact Us - File Upload" classname="contactUs.Test" time="7.667" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Contact Us - Empty Subject Heading" classname="contactUs.Test" time="8.189" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Contact Us - Invalid Email" classname="contactUs.Test" time="8.297" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Contact Us - Empty Message" classname="contactUs.Test" time="7.794" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Contact Us - Empty Order Reference" classname="contactUs.Test" time="7.846" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

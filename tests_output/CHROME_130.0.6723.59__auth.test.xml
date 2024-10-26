@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="auth.test"
+    errors="1" failures="0" hostname="" id="" package="auth.test" skipped="9"
+    tests="0" time="0.006000" timestamp="">
+  
+
+  
+    <system-err>
+       Error
+   Invalid Chai property: toBe. Did you mean &#34;to&#34;?
+
+    Error location:
+    C:\Users\EGYPT_LAPTOP\qa_automation_project\tests\auth.test.js:29
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     27 |     console.log(&#39;Auth response:&#39;, response.body); // Log the response for debugging
+     28 | 
+     29 |     expect(response.status).toBe(200); 
+     30 |     expect(response.body).toHaveProperty(&#39;token&#39;); // Check if token is present
+     31 |     token = response.body.token; // Store the token for future tests
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+    <error message="Invalid Chai property: toBe. Did you mean &#34;to&#34;?"><![CDATA[
+      Error: Invalid Chai property: toBe. Did you mean &#34;to&#34;?
+    at Object.proxyGetter [as get] (C:\Users\EGYPT_LAPTOP\qa_automation_project\node_modules\@nightwatch\chai\lib\chai\utils\proxify.js:75:17)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\EGYPT_LAPTOP\qa_automation_project\tests\auth.test.js:29:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Authenticate User - Valid Credentials" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Authenticate User - Invalid Credentials" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create User - Valid Data" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create User - Invalid Data" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Get User - Valid Token" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Get User - Invalid Token" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PATCH User - Valid Token" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="should delete user with valid token" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="DELETE All Users - Valid Admin Key" classname="auth.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

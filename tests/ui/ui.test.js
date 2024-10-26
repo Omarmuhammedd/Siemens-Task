@@ -114,5 +114,19 @@ module.exports = {
       .waitForElementVisible('@successAlert', 10000)
       .assert.containsText('@successAlert', 'Your message has been successfully sent to our team.')
       .end();
+  },
+  
+'Search Test': function (browser) {
+    const homePage = browser.page.homePageSearch();
+    
+    homePage
+      .navigate()
+      .setValue('@searchBox', 'dress')
+      .click('@searchButton')
+      .pause(1000); // Optional: wait for search results to load
+
+    // Assert that search results are visible
+    browser.assert.visible(homePage.elements.searchResults.selector)
+      .end(); // Make sure to end the browser session after the test
   }
 };
